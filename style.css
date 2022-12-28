@@ -1,0 +1,920 @@
+/* Universal selectors */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background-color: #f9f9f9;
+  /* background-color: #fcfaee; */
+}
+
+/* h2 {
+  scroll-margin-top: 50rem;
+} */
+
+#menuanchor1 {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sticky2 {
+  color: white;
+}
+
+/* End of Universal selectors */
+
+/* hamburger menu  */
+
+#open {
+  display: none;
+}
+#close {
+  display: none;
+}
+
+/* end of hamburger menu */
+
+/* image animation scaling */
+
+.anim:hover {
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+}
+
+.anim {
+  transition: transform 0.5s;
+  border-radius: 0.5rem;
+}
+
+/* end of image animation */
+
+/* button hover effect */
+
+.hovereffectmenu:hover {
+  background: linear-gradient(
+    90deg,
+    hsla(52, 100%, 50%, 1) 0%,
+    hsla(37, 96%, 59%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(52, 100%, 50%, 1) 0%,
+    hsla(37, 96%, 59%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(52, 100%, 50%, 1) 0%,
+    hsla(37, 96%, 59%, 1) 100%
+  );
+  padding: 10px;
+  border-radius: 0.5rem;
+  transition: 0.3s ease;
+}
+
+/* hover effect the end */
+
+/* HEADER */
+
+.header {
+  background-color: #fff;
+}
+
+/* END OF HEADER */
+
+/* HEADER - LOGO */
+
+/* STIKCY HEADER */
+
+.sticky {
+  color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    hsla(196, 100%, 18%, 1) 0%,
+    hsla(196, 83%, 30%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(196, 100%, 18%, 1) 0%,
+    hsla(196, 83%, 30%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(196, 100%, 18%, 1) 0%,
+    hsla(196, 83%, 30%, 1) 100%
+  );
+  z-index: 9;
+
+  margin: 0;
+  animation: slide-down 2s;
+  /* opacity: 0.9; */
+  text-decoration: none;
+  font-size: 1.2vw;
+  cursor: pointer;
+}
+
+@keyframes slide-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 0.9;
+    transform: translateY(0);
+  }
+}
+
+/*  end of sticky header */
+/* mobile menu */
+
+.hamburger {
+  border: none;
+  background-color: #fff;
+  display: none;
+}
+/* end of mobile menu */
+
+/* logo */
+
+.logo {
+  /* background-image: url(logosipsite.png); */
+  /* background-repeat: no-repeat; */
+  width: 225px;
+  height: 33px;
+  /* width: 25%;
+  height: 47%; */
+  /* width: clamp(20%, 225px, 18rem);
+  height: clamp(5%, 33px, 3rem); */
+
+  align-self: center;
+  margin-left: 2%;
+}
+
+/* END OF LOGO */
+
+/* HEADER -  MENU ITEMS */
+
+.nav {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ul {
+  display: flex;
+  list-style-type: none;
+  /* margin: 15px; */
+  align-items: center;
+  /* margin-right: 20%; */
+}
+
+.menuli {
+  /* padding-right: 30px; */
+  padding-right: 2.5vw;
+
+  /* font-size: 1%; */
+  font-weight: 550;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.menubtn {
+  text-decoration: none;
+  font-size: 1.1vw;
+  cursor: pointer;
+  color: black;
+}
+
+/* END OF MENU ITEMS */
+
+/* HEADER - FLAGS */
+
+.flags {
+  align-self: center;
+  margin-right: 5%;
+  /* width: 10vw; */
+  display: flex;
+}
+
+.flags a {
+  margin: 5px;
+}
+
+/* HEADER - END OF FLAGS */
+
+/* LANDING PAGE - IMAGE */
+
+.landingpage {
+  width: 100%;
+  position: relative;
+}
+
+/* END OF LANDING PAGE IMAGE */
+
+/* landing page section */
+
+.landingsection {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.landingbackground {
+  background-image: url(landingpage.jpg);
+  background-repeat: no-repeat;
+  height: 60vw;
+  /* width: 100%;
+  height: 100%; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  position: relative;
+}
+
+/* end of landing page section */
+
+/* landing page text */
+
+.landingtext1 {
+  font-size: 4.5vw;
+  line-height: 1.3;
+  color: white;
+  width: 55%;
+  font-weight: 800;
+  margin-top: 15vw;
+  margin-left: 7vw;
+}
+
+.landingtext2 {
+  font-size: 1.6vw;
+  color: white;
+  margin-top: -28vw;
+  width: 50%;
+  font-weight: 600;
+  margin-left: 5vw;
+}
+
+/* end of landing page text */
+
+/* Landing page button */
+
+.contactus {
+  width: 30%;
+  padding: 15px;
+  color: black;
+  font-size: 1.4vw;
+  font-weight: 600;
+  /* background-color: rgb(28, 224, 28); */
+  background: linear-gradient(
+    90deg,
+    hsla(52, 100%, 50%, 1) 0%,
+    hsla(37, 96%, 59%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(52, 100%, 50%, 1) 0%,
+    hsla(37, 96%, 59%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(52, 100%, 50%, 1) 0%,
+    hsla(37, 96%, 59%, 1) 100%
+  );
+
+  border: none;
+  border-radius: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.contactusdiv {
+  margin-top: 29vw;
+  margin-left: 15vw;
+}
+
+.contactus:hover {
+  background: linear-gradient(
+    90deg,
+    hsla(52, 100%, 46%, 1) 0%,
+    hsla(37, 84%, 44%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(52, 100%, 46%, 1) 0%,
+    hsla(37, 84%, 44%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(52, 100%, 46%, 1) 0%,
+    hsla(37, 84%, 44%, 1) 100%
+  );
+
+  font-size: 1.55rem;
+}
+
+/* end of landing page button */
+
+/* LANDING PAGE SCROOL DOWN BUTTON */
+.demo a {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #fff;
+  font: normal 400 20px/1 "Josefin Sans", sans-serif;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  transition: opacity 0.3s;
+}
+.demo a:hover {
+  opacity: 0.5;
+}
+
+#section07 a {
+  padding-top: 80px;
+}
+#section07 a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb07 2s infinite;
+  animation: sdb07 2s infinite;
+  opacity: 0;
+  box-sizing: border-box;
+}
+#section07 a span:nth-of-type(1) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+#section07 a span:nth-of-type(2) {
+  top: 16px;
+  -webkit-animation-delay: 0.15s;
+  animation-delay: 0.15s;
+}
+#section07 a span:nth-of-type(3) {
+  top: 32px;
+  -webkit-animation-delay: 8.3s;
+  animation-delay: 0.3s;
+}
+
+@-webkit-keyframes sdb07 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb07 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.scrooldownbtn {
+  cursor: pointer;
+}
+
+/*  END OF SCROOL DOWN BUTTON */
+
+/* SIP WALL FEATURE SECTION */
+
+.sipwalltitle {
+  padding-top: 50px;
+}
+
+.icon {
+  margin-bottom: 15px;
+  color: #ffe200;
+}
+
+.sip {
+  /* margin: 20px 100px; */
+  margin: 0 5vw;
+  /* background-color: #00455e;
+  background-color: #00455e; */
+  position: relative;
+  padding-top: 100px;
+
+  border-radius: 0.5rem;
+  color: #00455e;
+}
+
+.sipgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sipimage {
+  /* width: 600px;
+  height: 700px; */
+  /* width: 130%;
+  height: 70%; */
+  border-radius: 0.5rem;
+  width: 35vw;
+  height: 40vw;
+}
+
+.divsipimage {
+  grid-column: 2;
+  grid-row: 1/10;
+  /* display: grid; */
+  align-items: center;
+  justify-items: center;
+}
+
+.sipfeatures {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  font-weight: 600;
+  font-size: 1vw;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.a1 {
+  grid-column: 1;
+  grid-row: 2;
+  margin-bottom: 50px;
+}
+.a2 {
+  grid-column: 1;
+  grid-row: 4;
+}
+.a3 {
+  grid-column: 1;
+  grid-row: 7;
+}
+.a4 {
+  grid-column: 3;
+  grid-row: 2;
+  margin-bottom: 50px;
+}
+.a5 {
+  grid-column: 3;
+  grid-row: 7;
+}
+
+.a6 {
+  grid-column: 3;
+  grid-row: 4;
+  padding-bottom: 40px;
+}
+
+.abtn {
+  width: 30%;
+  text-align: center;
+  grid-column: 3;
+  grid-row: 9;
+  font-size: 1.3vw;
+  padding: 10px;
+  /* background-color: #e7eacd; */
+  background: linear-gradient(
+    90deg,
+    hsla(52, 100%, 50%, 1) 0%,
+    hsla(37, 96%, 59%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(52, 100%, 50%, 1) 0%,
+    hsla(37, 96%, 59%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(52, 100%, 50%, 1) 0%,
+    hsla(37, 96%, 59%, 1) 100%
+  );
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: #fff;
+  justify-self: center;
+}
+
+.abtn:hover {
+  background: linear-gradient(
+    90deg,
+    hsla(52, 100%, 46%, 1) 0%,
+    hsla(37, 84%, 44%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(52, 100%, 46%, 1) 0%,
+    hsla(37, 84%, 44%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(52, 100%, 46%, 1) 0%,
+    hsla(37, 84%, 44%, 1) 100%
+  );
+}
+
+/* .daugiauskydai {
+  position: absolute;
+  top: 50vw;
+  right: 2vw;
+} */
+
+/* END OF SIP WALL FEATURE SECTION */
+
+/* MUSU PASLAUGOS */
+
+.paslauguimgs {
+  width: 45%;
+}
+
+.backgroundcolor {
+  background: linear-gradient(
+    90deg,
+    hsla(196, 100%, 18%, 1) 0%,
+    hsla(196, 83%, 30%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(196, 100%, 18%, 1) 0%,
+    hsla(196, 83%, 30%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(196, 100%, 18%, 1) 0%,
+    hsla(196, 83%, 30%, 1) 100%
+  );
+}
+
+.paslaugos {
+  padding-top: 150px;
+}
+
+.explaining {
+  position: relative;
+}
+
+.sectiontitle {
+  text-align: center;
+  margin-bottom: 50px;
+  /* margin-top: 70px; */
+
+  font-size: 2.25vw;
+}
+
+.img {
+  /* width: 380px;
+  height: 260px; */
+  border-radius: 0.5rem;
+}
+
+.textimg {
+  display: flex;
+  gap: 4%;
+  padding-top: 2.5%;
+  padding-left: 2.5%;
+  padding-bottom: 2.5%;
+  border-radius: 0.5rem;
+  width: 50%;
+  margin-left: 2.5%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 70px;
+  margin-left: 100px;
+}
+
+.tekstas {
+  /* width: 45%; */
+  /* padding: 20px 40px 20px 0; */
+  padding: 2% 10% 2% 2%;
+  font-size: 1vw;
+  line-height: 1.5;
+  color: #fff;
+  align-self: center;
+  justify-self: center;
+}
+
+.title {
+  padding-bottom: 15px;
+}
+
+.divgamyba {
+  margin-left: 45%;
+  margin-right: 3%;
+}
+
+.divprojektavimas {
+  margin-left: 100px;
+  margin-top: 0;
+}
+
+/* end of musu paslaugos */
+
+/* apie mus */
+
+.apiemustitle {
+  padding-top: 50px;
+}
+
+.apiemussection {
+  background-color: #fff;
+  margin-left: 50px;
+  margin-right: 50px;
+
+  padding-top: 100px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+.apiemus {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin: 100px 3vw 100px 0;
+}
+
+.apiemustekstas {
+  font-size: 1vw;
+  width: 70%;
+  line-height: 1.5;
+  /* margin-left: 50px; */
+  align-self: center;
+  justify-self: center;
+}
+
+/* .apiemusimg {
+  width: 600px;
+  height: 400px;
+} */
+
+.apieimg {
+  border-radius: 0.5rem;
+  width: 99%;
+}
+/* apie mus pabaiga */
+
+/* kontaktai */
+
+.musrasite {
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-bottom: 50px;
+}
+
+.k {
+  text-align: left;
+  margin-left: 50px;
+  padding-top: 80px;
+  font-size: 3.5vw;
+}
+
+.kontaktai {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+.kontaktutekstas {
+  text-align: left;
+  font-size: 1.3rem;
+  /* width: 75%; */
+  /* margin-left: 50px; */
+  /* line-height: 1.5; */
+}
+
+.kontaktudiv {
+  /* margin: 100px;
+  margin-top: 50px; */
+  margin: 2.5vw 3vw 4vw 3vw;
+}
+
+.googlemap {
+  /* width: 1400px;
+  height: 500px; */
+  width: 80%;
+  height: 28vw;
+  border-radius: 0.5rem;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/* kontaktu pabaiga */
+
+/* Igyvendinti projektai */
+
+.projektaidabar {
+  margin-top: 100px;
+}
+
+.padarytuprojektudiv {
+  display: flex;
+  margin: 8%;
+  justify-content: space-between;
+}
+
+.padarytiprojektaiimg {
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 0.5rem;
+  width: 90%;
+}
+
+/* Igyvendinti projektai pabaiga */
+
+/* testimonials */
+
+/* end of testimonials */
+
+/* Placiau apie sip skydus */
+
+.sipskydaimainimg {
+  width: 34vw;
+  height: 37vw;
+  border-radius: 0.5rem;
+}
+
+.tekstasimgsipskydu {
+  display: flex;
+  margin: 4vw;
+  justify-content: space-between;
+}
+
+.placiuskydutxt {
+  text-align: left;
+  width: 50%;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.papildomassiptxt {
+  width: 70%;
+  margin-left: 50px;
+}
+
+.papildomassipimgs {
+  display: flex;
+  margin: 3vw;
+  justify-content: space-between;
+}
+
+.sipimgextra {
+  /* width: 420px;
+  height: 300px; */
+  width: 90%;
+  border-radius: 0.5rem;
+}
+/* placiau apie sip skydus pabaiga */
+
+/* placiau gamyba */
+
+/* .divgamyba {
+  text-decoration: none;
+} */
+
+.gamyba {
+  margin-top: 50px;
+}
+
+.gamybosetapai {
+  margin: 20px;
+  margin-top: 10px;
+}
+
+.gamybatextno {
+  text-decoration: none;
+}
+
+.orderedlist {
+  margin-left: 30px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.gamybaextratxt {
+  margin: 0 150px 50px 150px;
+  font-size: 1.2rem;
+  line-height: 1.7;
+}
+
+.gamybaextraimgirtxt {
+  display: flex;
+  margin: auto 100px 10px 100px;
+  justify-content: space-between;
+}
+
+.biggamybaimg {
+  width: 600px;
+  height: 450px;
+  border-radius: 0.5rem;
+}
+
+.gamybaimgextra {
+  width: 350px;
+  height: 250px;
+  border-radius: 0.5rem;
+}
+
+.extragamybosimgsdiv {
+  display: flex;
+  margin: 20px 200px 0 200px;
+  justify-content: space-between;
+}
+
+.marginbottom {
+  margin-bottom: 100px;
+}
+
+/* placiau gamyba pabaiga */
+
+/* FOOTERIS */
+
+.foteriodiv {
+  text-align: center;
+  font-size: 1rem;
+  background: linear-gradient(
+    90deg,
+    hsla(196, 100%, 18%, 1) 0%,
+    hsla(196, 83%, 30%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(196, 100%, 18%, 1) 0%,
+    hsla(196, 83%, 30%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(196, 100%, 18%, 1) 0%,
+    hsla(196, 83%, 30%, 1) 100%
+  );
+  color: white;
+  padding: 25px;
+}
+
+/* end of footer */
+
+/* DROP DOWN FLAGS */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  display: block;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* END OF DROPDOWN FLAGS */

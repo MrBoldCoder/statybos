@@ -1,0 +1,670 @@
+/* menu */
+
+@media (max-width: 1500px) {
+  .placiuskydutxt {
+    width: 90%;
+    margin: auto;
+  }
+  .tekstasimgsipskydu {
+    flex-direction: column;
+    margin: 4vw;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+  }
+
+  .sipskydaimainimg {
+    display: flex;
+
+    margin: auto;
+  }
+
+  .papildomassipimgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+
+  .sipimgextra {
+    width: 100%;
+    margin: 2vw;
+  }
+}
+
+@media (max-width: 1300px) {
+  .menubtn {
+    font-size: 1.4vw;
+  }
+}
+
+@media (width: 1280px) and (height: 800px) {
+  .k {
+    padding-top: 100px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .sipfeatures {
+    font-size: 1.3vw;
+  }
+
+  .tekstas {
+    font-size: 1.2vw;
+  }
+
+  .textimg {
+    width: 60%;
+    margin-left: 5vw;
+  }
+
+  .divgamyba {
+    margin-left: 35%;
+  }
+}
+
+@media (max-width: 1250px) {
+  .demo {
+    display: none;
+  }
+
+  .sip {
+    margin: 0;
+  }
+
+  .tekstas {
+    padding: 1% 5% 1% 1%;
+    font-size: 1.1vw;
+    line-height: 1.5;
+    color: #fff;
+    align-self: center;
+    justify-self: center;
+  }
+}
+
+@media (max-width: 1100px) {
+  .tekstas {
+    font-size: 1.5vw;
+  }
+
+  .apiemustekstas {
+    font-size: 1.5vw;
+  }
+
+  .k {
+    padding-top: 0;
+  }
+
+  .kontaktai {
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 50px;
+  }
+
+  .apiemussection {
+    margin-bottom: 100px;
+  }
+
+  .abtn {
+    font-size: 1.7vw;
+  }
+
+  .sipskydaimainimg {
+    width: 45vw;
+    height: 40vw;
+    border-radius: 0.5rem;
+  }
+}
+@media (max-width: 1050px) {
+  .sipfeatures {
+    font-size: 1.5vw;
+  }
+
+  .sipimage {
+    display: flex;
+    align-self: center;
+    height: 50vw;
+  }
+  .divsipimage {
+    display: flex;
+    align-self: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  .sipfeatures {
+    font-size: 1.5vw;
+  }
+
+  .tekstas {
+    font-size: 1.5vw;
+  }
+}
+
+@media (max-width: 900px) {
+  .sipskydaimainimg {
+    width: 90%;
+    height: 80vw;
+
+    border-radius: 0.5rem;
+  }
+
+  .googlemap {
+    width: 85%;
+    height: 50vw;
+  }
+
+  .kontaktai {
+    padding-bottom: 50px;
+    padding-top: 90px;
+    margin-bottom: 0;
+  }
+  /* sip grid */
+
+  .sipimage {
+    border-radius: 0.5rem;
+    width: 50vw;
+    height: 65vw;
+  }
+
+  /* .sipwalltitle {
+    font-size: 4vw;
+  } */
+
+  .k {
+    font-size: 8vw;
+  }
+
+  .divsipimage {
+    grid-column: 1/4;
+    grid-row: 3/7;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  /* .icon {
+    margin: 0;
+  } */
+
+  .sipfeatures {
+    font-size: 2vw;
+    margin: 15px;
+  }
+
+  .a1 {
+    margin-top: 20px;
+    grid-column: 1;
+    grid-row: 1;
+    /* margin-bottom: 20px; */
+  }
+  .a2 {
+    grid-column: 2;
+    grid-row: 8;
+  }
+  .a3 {
+    grid-column: 3;
+    grid-row: 1;
+    margin-bottom: 40px;
+  }
+  .a4 {
+    grid-column: 1;
+    grid-row: 8;
+    margin-bottom: 100px;
+  }
+  .a5 {
+    grid-column: 2;
+    grid-row: 1;
+    /* margin-bottom: 40px; */
+  }
+
+  .a6 {
+    grid-column: 3;
+    grid-row: 8;
+    /* padding-bottom: 40px; */
+    /* margin-bottom: 60px; */
+  }
+
+  /* end of sip grid */
+
+  .landingtext1 {
+    font-size: 5.5vw;
+    margin-top: 18vw;
+  }
+
+  .landingtext2 {
+    font-size: 2vw;
+    margin-top: -34vw;
+  }
+
+  .contactusdiv {
+    margin-top: 35vw;
+  }
+
+  .contactus {
+    font-size: 2.5vw;
+  }
+
+  .apiemus {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vw;
+  }
+
+  .apiemussection {
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+
+  .apiemustekstas {
+    font-size: 3vw;
+    margin-bottom: 5vw;
+    width: 95%;
+  }
+
+  .apieimg {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .padarytuprojektudiv {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    /* width: 70%; */
+  }
+
+  .padarytiprojektaiimg {
+    width: 100%;
+    margin: 2vw;
+  }
+
+  .sectiontitle {
+    font-size: 4vw;
+  }
+
+  .k {
+    font-size: 4vw;
+  }
+
+  .textimg {
+    width: 90%;
+    margin: 0;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+
+  .tekstas {
+    font-size: 1.9vw;
+  }
+
+  .menubtn {
+    display: block;
+    margin: 2rem 4rem;
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+  }
+
+  .menubtn:hover {
+    text-decoration: underline;
+  }
+
+  .hamburger {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    padding: 4px;
+    border: black solid 1px;
+    background: rgba(255, 255, 255, 0);
+    cursor: pointer;
+  }
+
+  .ulmobilenav {
+    /* background-color: #000000bc; */
+    background: linear-gradient(
+      90deg,
+      hsla(196, 100%, 18%, 1) 0%,
+      hsla(196, 83%, 30%, 1) 100%
+    );
+
+    background: -moz-linear-gradient(
+      90deg,
+      hsla(196, 100%, 18%, 1) 0%,
+      hsla(196, 83%, 30%, 1) 100%
+    );
+
+    background: -webkit-linear-gradient(
+      90deg,
+      hsla(196, 100%, 18%, 1) 0%,
+      hsla(196, 83%, 30%, 1) 100%
+    );
+    display: block;
+    align-self: center;
+    position: fixed;
+    width: 100%;
+    height: clamp(35rem, 70vh, 85rem);
+    z-index: 8;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2;
+    top: 0;
+    /* margin-left: 30%; */
+  }
+
+  .aaa {
+    display: flex;
+    margin: 9vw;
+    justify-content: center;
+
+    font-size: 3.5vw;
+  }
+
+  .ul {
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.3s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    /* background: black; */
+    color: white;
+    list-style: none;
+    padding-top: 1px;
+    /* display: none; */
+  }
+
+  .showMenu {
+    transform: translateY(0);
+  }
+
+  .hamburger {
+    margin: 0.5vw;
+    border: none;
+    display: block;
+  }
+
+  #open {
+    display: block;
+    border: none;
+    margin: 2vw;
+  }
+
+  .close {
+    margin: 2vw;
+  }
+
+  .flags {
+    margin-left: 40vw;
+    margin-right: 0;
+    display: none;
+  }
+
+  .flagicon {
+    width: 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  .aaa {
+    display: flex;
+    margin: 10vw;
+    justify-content: center;
+    font-size: 3.5vh;
+  }
+
+  .ulmobilenav {
+    height: 65vh;
+  }
+
+  .abtn {
+    font-size: 2.8vw;
+    margin-left: 3vw;
+  }
+
+  .kontaktutekstas {
+    line-height: 1.5;
+  }
+
+  .sipfeatures {
+    font-size: 2.5vw;
+  }
+
+  .contactusdiv {
+    margin-top: 30vw;
+  }
+
+  .flags {
+    margin-left: 25vw;
+  }
+
+  .logo {
+    width: 200px;
+  }
+
+  .landingtext1 {
+    font-size: 5vw;
+    line-height: 1.3;
+    color: white;
+    width: 55%;
+    font-weight: 800;
+    margin-top: 22vw;
+    margin-left: 7vw;
+  }
+
+  .landingtext2 {
+    font-size: 2.5vw;
+    color: white;
+    margin-top: -33vw;
+    width: 50%;
+    font-weight: 600;
+    margin-left: 5vw;
+  }
+
+  .contactus {
+    font-size: 3vw;
+    padding: 8px;
+  }
+
+  .sip {
+    padding-top: 50px;
+  }
+
+  .sectiontitle {
+    text-align: center;
+    margin-bottom: 20px;
+    /* margin-top: 70px; */
+    font-size: 8vw;
+  }
+
+  /* sip grid */
+
+  .sipgrid {
+    display: block;
+  }
+
+  .a4 {
+    margin-bottom: 0;
+  }
+
+  .sipfeatures {
+    margin-bottom: 30px;
+  }
+
+  .sipimage {
+    border-radius: 0.5rem;
+    width: 65vw;
+    height: 85vw;
+  }
+
+  .k {
+    font-size: 8vw;
+  }
+
+  /* explaining */
+
+  .textimg {
+    width: 95%;
+    margin: 0;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+
+  .tekstas {
+    font-size: 2.5vw;
+  }
+
+  .paslauguimgs {
+    height: 35vw;
+    align-self: center;
+  }
+
+  /* .divgamyba {
+    margin: 0;
+    margin: auto;
+  } */
+
+  /* .tekstas {
+    padding: 1% 5% 1% 1%;
+    font-size: 2vw;
+    line-height: 1.5;
+    color: #fff;
+    align-self: center;
+    justify-self: center;
+  } */
+  /* end of explaining */
+
+  .googlemap {
+    width: 90%;
+    height: 55vw;
+    border-radius: 0.5rem;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+}
+@media (max-width: 582px) {
+  .abtn {
+    font-size: 3.5vw;
+    margin-left: 3vw;
+  }
+
+  .sipfeatures {
+    font-size: 3vw;
+  }
+
+  .flags {
+    margin-left: 5vw;
+  }
+
+  .googlemap {
+    width: 95%;
+    height: 60vw;
+  }
+
+  .landingtext1 {
+    font-size: 6.5vw;
+    margin-top: 15vw;
+    width: 70%;
+  }
+
+  .landingtext2 {
+    font-size: 3vw;
+    margin-top: -40vw;
+    width: 70%;
+  }
+
+  .contactusdiv {
+    margin-top: 35vw;
+  }
+
+  .contactus {
+    font-size: 3.5vw;
+  }
+
+  .papildomassipimgs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+  }
+
+  /* .papildomassipimgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  } */
+
+  .sipimgextra {
+    width: 90%;
+    margin: 4vw;
+  }
+}
+
+/* @media (max-width: 640px) {
+  .logo {
+    width: 100%;
+    height: 33px;
+  }
+} */
+
+@media (max-width: 500px) {
+  .k {
+    font-size: 8vw;
+  }
+
+  .sipfeatures {
+    font-size: 4vw;
+  }
+
+  .textimg {
+    flex-direction: column;
+    width: 95%;
+    margin: 0;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+
+  .tekstas {
+    font-size: 3vw;
+  }
+
+  .paslauguimgs {
+    height: 55vw;
+    width: 70vw;
+    align-self: center;
+  }
+
+  .apiemustekstas {
+    font-size: 3.3vw;
+  }
+}
+
+@media (max-width: 450px) {
+  .apiemustekstas {
+    font-size: 4vw;
+  }
+
+  .aaa {
+    display: flex;
+    margin: 10vw;
+    justify-content: center;
+    font-size: 3vh;
+  }
+
+  .ulmobilenav {
+    height: 60vh;
+  }
+}
+
+/* end of menu */
